@@ -40,3 +40,11 @@ app->config->database.php
             
             'sslmode' => 'prefer',
         ],
+        
+CRIAR A BASE DE DADOS indicacao
+
+RODAR OS SEGUINTES COMANDOS COM O COMPOSER:
+
+    php artisan migrate   --ira criar as tabelas necessarias para o projeto
+    
+    php artisan serve      -- ira executar o servidor para rodar o projeto laravel
